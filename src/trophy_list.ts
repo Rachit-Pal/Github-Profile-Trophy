@@ -2,7 +2,6 @@ import {
   Trophy,
   TotalStarTrophy,
   TotalCommitTrophy,
-  TotalFollowerTrophy,
   TotalIssueTrophy,
   TotalPullRequestTrophy,
   TotalRepositoryTrophy,
@@ -23,7 +22,6 @@ export class TrophyList {
     this.trophies.push(
       new TotalStarTrophy(userInfo.totalStargazers),
       new TotalCommitTrophy(userInfo.totalCommits),
-      new TotalFollowerTrophy(userInfo.totalFollowers),
       new TotalIssueTrophy(userInfo.totalIssues),
       new TotalPullRequestTrophy(userInfo.totalPullRequests),
       new TotalRepositoryTrophy(userInfo.totalRepositories),
@@ -74,4 +72,3 @@ export class TrophyList {
     );
   }
 }
-
