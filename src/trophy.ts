@@ -205,12 +205,12 @@ export class TotalStarTrophy extends Trophy {
       new RankCondition(
         RANK.SSS,
         "Super Stargazer",
-        2000,
+        1000,
       ),
       new RankCondition(
         RANK.SS,
         "High Stargazer",
-        700,
+        500,
       ),
       new RankCondition(
         RANK.S,
@@ -230,7 +230,7 @@ export class TotalStarTrophy extends Trophy {
       new RankCondition(
         RANK.A,
         "You are a Star",
-        30,
+        20,
       ),
       new RankCondition(
         RANK.B,
@@ -275,12 +275,12 @@ export class TotalCommitTrophy extends Trophy {
       new RankCondition(
         RANK.AA,
         "Hyper Committer",
-        200,
+        100,
       ),
       new RankCondition(
         RANK.A,
         "High Committer",
-        100,
+        50,
       ),
       new RankCondition(
         RANK.B,
@@ -305,37 +305,37 @@ export class TotalFollowerTrophy extends Trophy {
       new RankCondition(
         RANK.SSS,
         "Super Celebrity",
-        1000,
+        500,
       ),
       new RankCondition(
         RANK.SS,
         "Ultra Celebrity",
-        400,
+        200,
       ),
       new RankCondition(
         RANK.S,
         "Hyper Celebrity",
-        200,
+        100,
       ),
       new RankCondition(
         RANK.AAA,
         "Famous User",
-        100,
+        50,
       ),
       new RankCondition(
         RANK.AA,
         "Active User",
-        50,
+        20,
       ),
       new RankCondition(
         RANK.A,
         "Dynamic User",
-        20,
+        10,
       ),
       new RankCondition(
         RANK.B,
         "Many Friends",
-        10,
+        5,
       ),
       new RankCondition(
         RANK.C,
@@ -355,37 +355,37 @@ export class TotalIssueTrophy extends Trophy {
       new RankCondition(
         RANK.SSS,
         "God Issuer",
-        1000,
+        500,
       ),
       new RankCondition(
         RANK.SS,
         "Deep Issuer",
-        500,
+        200,
       ),
       new RankCondition(
         RANK.S,
         "Super Issuer",
-        200,
+        100,
       ),
       new RankCondition(
         RANK.AAA,
         "Ultra Issuer",
-        100,
+        50,
       ),
       new RankCondition(
         RANK.AA,
         "Hyper Issuer",
-        50,
+        20,
       ),
       new RankCondition(
         RANK.A,
         "High Issuer",
-        20,
+        10,
       ),
       new RankCondition(
         RANK.B,
         "Middle Issuer",
-        10,
+        5,
       ),
       new RankCondition(
         RANK.C,
