@@ -299,56 +299,6 @@ export class TotalCommitTrophy extends Trophy {
   }
 }
 
-export class TotalFollowerTrophy extends Trophy {
-  constructor(score: number) {
-    const rankConditions = [
-      new RankCondition(
-        RANK.SSS,
-        "Super Celebrity",
-        500,
-      ),
-      new RankCondition(
-        RANK.SS,
-        "Ultra Celebrity",
-        200,
-      ),
-      new RankCondition(
-        RANK.S,
-        "Hyper Celebrity",
-        100,
-      ),
-      new RankCondition(
-        RANK.AAA,
-        "Famous User",
-        50,
-      ),
-      new RankCondition(
-        RANK.AA,
-        "Active User",
-        20,
-      ),
-      new RankCondition(
-        RANK.A,
-        "Dynamic User",
-        10,
-      ),
-      new RankCondition(
-        RANK.B,
-        "Many Friends",
-        5,
-      ),
-      new RankCondition(
-        RANK.C,
-        "First Friend",
-        1,
-      ),
-    ];
-    super(score, rankConditions);
-    this.title = "Followers";
-    this.filterTitles = ["Follower", "Followers"];
-  }
-}
-
 export class TotalIssueTrophy extends Trophy {
   constructor(score: number) {
     const rankConditions = [
